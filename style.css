@@ -40,7 +40,7 @@
 .new-task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -144,7 +144,7 @@
 }
 
 .rename-task {
-  width: 226px
+  width: 226px;
 }
 
 .delete-img {
@@ -160,19 +160,19 @@
 /* Completed */
 
 #completed-tasks .name-task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .rename-task {
-  display: none
+  display: none;
 }
 
 .edit-mode .rename-task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .name-task {
